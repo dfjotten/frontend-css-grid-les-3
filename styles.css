@@ -8,6 +8,7 @@
 
 body {
     background-color: lightgoldenrodyellow;
+    color: floralwhite;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 50px 240px auto auto 100px auto 50px;
@@ -29,6 +30,7 @@ header {
 article {
     background-color: firebrick;
     grid-area: article;
+    padding: 20px;
 }
 .banner-c {
     background-color: firebrick;
@@ -57,4 +59,19 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px auto 50px 50px 50px 50px 50px;
+        grid-template-areas:
+        "header"
+        "article"
+        "bannerc"
+        "bannerd"
+        "bannere"
+        "."
+        "footer";
+    }
 }
