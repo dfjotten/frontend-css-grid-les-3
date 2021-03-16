@@ -1,17 +1,17 @@
 /*Maak hier jouw CSS!*/
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    /*border: 1px solid red;*/
-}
+/** {*/
+/*    margin: 0px;*/
+/*    padding: 0px;*/
+/*    box-sizing: border-box;*/
+/*    !*border: 1px solid red;*!*/
+/*}*/
 
 body {
     background-color: lightgoldenrodyellow;
     color: floralwhite;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 240px auto auto 100px auto 50px;
+    grid-template-rows: 50px 240px auto 100px 50px;
     grid-template-areas:
         "header bannerc bannerc"
         "article bannerc bannerc"
