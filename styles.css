@@ -1,1 +1,60 @@
 /*Maak hier jouw CSS!*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 240px auto auto 100px auto 50px;
+    grid-template-areas:
+        "header bannerc bannerc"
+        "article bannerc bannerc"
+        "article bannere bannerd"
+        "article bannere . "
+        "footer footer footer";
+    gap: 16px;
+}
+header {
+    background-color: firebrick;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article {
+    background-color: firebrick;
+    grid-area: article;
+}
+.banner-c {
+    background-color: firebrick;
+    grid-area: bannerc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-e {
+    background-color: firebrick;
+    grid-area: bannere;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-d {
+    background-color: firebrick;
+    grid-area: bannerd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color: firebrick;
+    grid-area:footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
