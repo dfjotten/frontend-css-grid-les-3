@@ -30,7 +30,10 @@ header {
 article {
     background-color: firebrick;
     grid-area: article;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
 }
 .banner-c {
     background-color: firebrick;
