@@ -11,7 +11,7 @@ body {
     color: floralwhite;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 240px auto 100px 50px;
+    grid-template-rows: 50px 174px auto 100px 50px;
     grid-template-areas:
         "header bannerc bannerc"
         "article bannerc bannerc"
